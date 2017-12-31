@@ -1,5 +1,17 @@
-# HealthModellingHUN
-Health-related interactive modelling based on Hungarian statistics 1960-2015
+---
+title: "Health Modelling HUN"
+author: "Gabor Simon <gabor.simon75@gmail.com>"
+date: "December 31, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(GGally)
+# NOTE: we rely on the cached file created by server.R (eg. on the test run)
+rds_file <- "hstat.rds"
+hstat <- readRDS(rds_file)
+```
 
 ## About
 
@@ -27,6 +39,12 @@ When at least two predictors are selected, their Variance Inflation Factors are 
 **NOTE:** As long as no predictors are selected, there is nothing to display...
 
 ## The data
+
+The data is annual statistics between 1960-2015, and the raw correlations are these:
+
+```{r corr}
+ggduo(hstat, columnsY=c("births", "deaths"), columnsX=c("meat", "dairy", "flour", "sugar", "potato", "egg", "energy", "doctors", "hospital.beds"))
+```
 
 All sources are freely available from the [Hungarian Central Statistics Office](http://www.ksh.hu):
 
