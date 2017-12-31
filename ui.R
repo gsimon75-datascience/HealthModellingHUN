@@ -25,7 +25,7 @@ shinyUI(
 					)
 				),
 				wellPanel(
-				  helpText(a("Manual", href="https://gsimon75.github.io/HealthModellingHUN")),
+				  helpText(a("Manual", href="https://gsimon75.github.io/HealthModellingHUN/")),
 				  helpText(a("Project home", href="https://gsimon75.github.io/HealthModellingHUN"))
 				)
 			),
