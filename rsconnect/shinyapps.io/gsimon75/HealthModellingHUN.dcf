@@ -1,0 +1,12 @@
+name: HealthModellingHUN
+title: HealthModellingHUN
+username:
+account: gsimon75
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 252710
+bundleId: 1156994
+url: https://gsimon75.shinyapps.io/HealthModellingHUN/
+when: 1514739124.60164
+asMultiple: FALSE
+asStatic: FALSE
