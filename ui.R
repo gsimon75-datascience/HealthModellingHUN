@@ -17,7 +17,8 @@ shinyUI(
 					  "Potato (kg/yr)" = "potato",
 					  "Egg (pc/yr)" = "egg",
 					  "Energy (kJ/dy)" = "energy"
-					)
+					),
+					selected=c("energy")
 				),
 				checkboxGroupInput("pred_healthcare", "Predictors - Healthcare",
 					c("Doctors (per 10k)" = "doctors",
