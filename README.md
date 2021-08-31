@@ -7,8 +7,9 @@ This application lets you fit linear models between various health-affecting pre
 
 **NOTE:** As any health-related change takes time from cause to effect, it makes very little sense to relate predictors and outcomes from the same year, so the goal here is rather to demonstrate the technology than to explore new correlations.
 
-The source GitHub repository is accessible [here](https://github.com/gsimon75/HealthModellingHUN),
-the online viewable HTML page [here](https://gsimon75.github.io/HealthModellingHUN/).
+The source GitHub repository is accessible [here](https://github.com/gsimon75-datascience/HealthModellingHUN),
+the online viewable HTML page [here](https://gsimon75-datascience.github.io/HealthModellingHUN/),
+and the Shiny app (when it's started) [here](https://gsimon75.shinyapps.io/HealthModellingHUN/).
 
 ## The concept
 
